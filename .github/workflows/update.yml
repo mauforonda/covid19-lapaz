@@ -26,6 +26,7 @@ jobs:
       - name: commit
         env:
           DAY: ${{ steps.run_script.outputs.results }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --global user.email "covid19-bot@example.com"
           git config --global user.name "covid19-bot"
