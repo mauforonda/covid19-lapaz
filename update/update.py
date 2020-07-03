@@ -11,7 +11,6 @@ def get_total():
   return {'confirmados': r[0],
           'activos': r[0] - r[1] - r[2],
           'recuperados': r[1],
-          'total': r[]
           'fallecidos': r[2]}
 
 def get_data():

@@ -1,7 +1,7 @@
 name: Update data
 on:
   schedule:
-    - cron: '0 14 * * *'
+    - cron: '30 14 * * *'
 jobs:
   update:
     name: update data
