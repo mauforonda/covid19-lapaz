@@ -1,148 +1,149 @@
-macrodistrito,macro,distrito,zona,2020-07-01
-COTAHUMA,1,3,Sopocachi Alto,24
-COTAHUMA,1,3,Sopocachi Bajo,3
-COTAHUMA,1,3,Sopocachi,55
-COTAHUMA,1,3,Kantutani,1
-COTAHUMA,1,4,Inca Llojeta,1
-COTAHUMA,1,4,Alpacoma,3
-COTAHUMA,1,4,Bajo Llojeta,13
-COTAHUMA,1,4,Tembladerani,27
-COTAHUMA,1,4,Las Lomas,4
-COTAHUMA,1,4,Llojeta,5
-COTAHUMA,1,4,Obispo Bosque,2
-COTAHUMA,1,4,Pasankeri,12
-COTAHUMA,1,4,Cotahuma,7
-COTAHUMA,1,4,Tupac Amaru,3
-COTAHUMA,1,5,Villa Nuevo Potosí,25
-COTAHUMA,1,5,Alto Tacagua,6
-COTAHUMA,1,5,Faro Murillo,4
-COTAHUMA,1,5,San Juan de Cotahuma,2
-COTAHUMA,1,5,Tacagua,18
-COTAHUMA,1,6,San Pedro,32
-COTAHUMA,1,6,Bello Horizonte,11
-COTAHUMA,1,6,Belén,5
-COTAHUMA,1,6,San Pedro Alto,15
-MAX PAREDES,2,10,Caja Ferroviaria,2
-MAX PAREDES,2,10,Pura Pura,23
-MAX PAREDES,2,10,Ciudadela Ferroviaria,6
-MAX PAREDES,2,7,Los Andes,9
-MAX PAREDES,2,7,Gran Poder,28
-MAX PAREDES,2,7,Obispo Indaburo,4
-MAX PAREDES,2,7,14 de Septiembre,22
-MAX PAREDES,2,7,Chamoco Chico,7
-MAX PAREDES,2,7,Chijini,22
-MAX PAREDES,2,8,El Tejar,30
-MAX PAREDES,2,8,Callampaya,20
-MAX PAREDES,2,8,Villa Victoria,35
-MAX PAREDES,2,8,Mariscal Santa Cruz,13
-MAX PAREDES,2,9,Unión Alianza,1
-MAX PAREDES,2,9,Alto Munaypata Cusicancha,8
-MAX PAREDES,2,9,Alto Mcal. Santa Cruz,11
-MAX PAREDES,2,9,Chualluma,1
-MAX PAREDES,2,9,Villa Antofagasta,6
-MAX PAREDES,2,9,Huacataqui,4
-MAX PAREDES,2,9,La Portada,19
-MAX PAREDES,2,9,Alto Tejar,2
-MAX PAREDES,2,9,Munaypata,30
-MAX PAREDES,2,9,Rincón La Portada,3
-PERIFERICA,3,11,Villa de la Cruz,8
-PERIFERICA,3,11,Kamirpata,1
-PERIFERICA,3,11,Alto Vino Tinto,1
-PERIFERICA,3,11,Las Nieves,1
-PERIFERICA,3,11,Challapampa,28
-PERIFERICA,3,11,Agua de la Vida,12
-PERIFERICA,3,11,Plan Autopista,3
-PERIFERICA,3,11,Zona Norte,13
-PERIFERICA,3,11,Villa Pabón,5
-PERIFERICA,3,11,Vino Tinto,24
-PERIFERICA,3,11,Achachicala,25
-PERIFERICA,3,12,Agua de la Vida Norte,2
-PERIFERICA,3,12,Las Delicias,15
-PERIFERICA,3,12,Poqueni,1
-PERIFERICA,3,12,San Juan,1
-PERIFERICA,3,12,San Juan Lazareto,4
-PERIFERICA,3,12,Santa Rosa,6
-PERIFERICA,3,12,Santa Rosa de Tiji,3
-PERIFERICA,3,12,Miraflores Alto,17
-PERIFERICA,3,12,27 de Mayo,3
-PERIFERICA,3,12,Alto Las Delicias,5
-PERIFERICA,3,12,Cupilupaca,3
-PERIFERICA,3,12,Rosasani,2
-PERIFERICA,3,13,Villa El Carmen,31
-PERIFERICA,3,13,Villa Fátima,49
-PERIFERICA,3,13,Kalajahuira,7
-PERIFERICA,3,13,Kochapampa,1
-PERIFERICA,3,13,La Mercéd,14
-PERIFERICA,3,13,Condorini,5
-PERIFERICA,3,13,Chuquiaguillo,10
-PERIFERICA,3,13,Barrio Petrolero,1
-PERIFERICA,3,13,Barrio Gráfico,8
-PERIFERICA,3,13,Alto La Merced,2
-PERIFERICA,3,13,3 de Mayo,4
-SAN ANTONIO,4,14,Valle Hermoso,9
-SAN ANTONIO,4,14,Villa Copacabana,46
-SAN ANTONIO,4,14,San Simón,1
-SAN ANTONIO,4,14,Pacasa,8
-SAN ANTONIO,4,14,24 de Junio,1
-SAN ANTONIO,4,15,Escobar Uría,11
-SAN ANTONIO,4,15,San Antonio,67
-SAN ANTONIO,4,16,Pampahasi,38
-SAN ANTONIO,4,16,Valle de las Flores,3
-SAN ANTONIO,4,16,Villa Salomé,11
-SAN ANTONIO,4,17,Callapa,1
-SAN ANTONIO,4,17,Cuarto Centenario,4
-SAN ANTONIO,4,17,Kupini,3
-SAN ANTONIO,4,17,San Isidro,8
-SAN ANTONIO,4,17,Villa Armonía,13
-SAN ANTONIO,4,17,Villa Litoral,2
-SUR,5,18,Los Pinos,20
-SUR,5,18,La Florida,5
-SUR,5,18,Calacoto,32
-SUR,5,18,San Miguel,9
-SUR,5,18,Koani,2
-SUR,5,18,Irpavi,55
-SUR,5,18,Irpavi II,5
-SUR,5,18,Alto Calacoto,1
-SUR,5,18,Cota Cota,11
-SUR,5,18,Auquisamaña,1
-SUR,5,18,Achumani,33
-SUR,5,18,El Vergel,1
-SUR,5,18,Los Rosales,3
-SUR,5,18,Alto Irpavi,10
-SUR,5,18,Alto Achumani,1
-SUR,5,18,Achumani Porvenir Kantutas,1
-SUR,5,18,Huantaqui,4
-SUR,5,18,Jardines del Sur,3
-SUR,5,18,Meseta Achumani,2
-SUR,5,18,Aruntaya,3
-SUR,5,18,Huayllani,2
-SUR,5,19,Los Rosales Alto Calacoto,4
-SUR,5,19,Lomas de Achumani,1
-SUR,5,19,Coqueni,1
-SUR,5,19,Chasquipampa,17
-SUR,5,19,Casegural,1
-SUR,5,19,Wilacota,2
-SUR,5,19,Pedregal,7
-SUR,5,19,Ovejuyo,4
-SUR,5,21,Següencoma Bajo,7
-SUR,5,21,Ventilla,3
-SUR,5,21,San Alberto,2
-SUR,5,21,Kantutani Bajo Llojeta,9
-SUR,5,21,Huanu Huanuni,2
-SUR,5,21,Caliri,1
-SUR,5,21,Bolognia,6
-SUR,5,21,Bella Vista,9
-SUR,5,21,Alto Següencoma,12
-SUR,5,21,Alto Obrajes,20
-SUR,5,21,Obrajes,35
-MALLASA,6,20,Amor de Dios,1
-MALLASA,6,20,Aranjuéz,4
-MALLASA,6,20,Mallasa,11
-CENTRO,7,1,Santa Barbara,5
-CENTRO,7,1,San Sebastián,23
-CENTRO,7,1,El Rosario,2
-CENTRO,7,1,San Jorge,42
-CENTRO,7,1,Central,28
-CENTRO,7,2,Miraflores Sur,48
-CENTRO,7,2,Miraflores,104
-NO IDENTIFICADO,0,0,No Identificado,145
+macrodistrito,macro,distrito,zona,2020-07-01,2020-07-02
+COTAHUMA,1,3,Kantutani,1,1
+COTAHUMA,1,3,Sopocachi Bajo,3,4
+COTAHUMA,1,3,Sopocachi,55,56
+COTAHUMA,1,3,8 de Diciembre,0,1
+COTAHUMA,1,3,Sopocachi Alto,24,26
+COTAHUMA,1,4,Tembladerani,27,27
+COTAHUMA,1,4,Pasankeri,12,14
+COTAHUMA,1,4,Obispo Bosque,2,2
+COTAHUMA,1,4,Llojeta,5,5
+COTAHUMA,1,4,Las Lomas,4,4
+COTAHUMA,1,4,Bajo Llojeta,13,13
+COTAHUMA,1,4,Inca Llojeta,1,1
+COTAHUMA,1,4,Alpacoma,3,3
+COTAHUMA,1,4,Cotahuma,7,9
+COTAHUMA,1,4,Tupac Amaru,3,3
+COTAHUMA,1,5,Faro Murillo,4,4
+COTAHUMA,1,5,Villa Nuevo Potosí,25,28
+COTAHUMA,1,5,San Juan de Cotahuma,2,2
+COTAHUMA,1,5,Tacagua,18,18
+COTAHUMA,1,5,Alto Tacagua,6,6
+COTAHUMA,1,6,Belén,5,5
+COTAHUMA,1,6,San Pedro,32,34
+COTAHUMA,1,6,San Pedro Alto,15,18
+COTAHUMA,1,6,Bello Horizonte,11,11
+MAX PAREDES,2,10,Ciudadela Ferroviaria,6,6
+MAX PAREDES,2,10,Caja Ferroviaria,2,2
+MAX PAREDES,2,10,Pura Pura,23,23
+MAX PAREDES,2,7,Obispo Indaburo,4,4
+MAX PAREDES,2,7,14 de Septiembre,22,23
+MAX PAREDES,2,7,Los Andes,9,9
+MAX PAREDES,2,7,Gran Poder,28,30
+MAX PAREDES,2,7,Chamoco Chico,7,8
+MAX PAREDES,2,7,Chijini,22,24
+MAX PAREDES,2,8,Villa Victoria,35,36
+MAX PAREDES,2,8,Callampaya,20,21
+MAX PAREDES,2,8,Mariscal Santa Cruz,13,13
+MAX PAREDES,2,8,El Tejar,30,30
+MAX PAREDES,2,9,Unión Alianza,1,1
+MAX PAREDES,2,9,Alto Munaypata Cusicancha,8,8
+MAX PAREDES,2,9,Chualluma,1,1
+MAX PAREDES,2,9,Alto Mcal. Santa Cruz,11,11
+MAX PAREDES,2,9,Huacataqui,4,4
+MAX PAREDES,2,9,La Portada,19,19
+MAX PAREDES,2,9,Villa Antofagasta,6,6
+MAX PAREDES,2,9,Munaypata,30,31
+MAX PAREDES,2,9,Alto Tejar,2,2
+MAX PAREDES,2,9,Rincón La Portada,3,3
+PERIFERICA,3,11,Villa de la Cruz,8,10
+PERIFERICA,3,11,Kamirpata,1,1
+PERIFERICA,3,11,Alto Vino Tinto,1,1
+PERIFERICA,3,11,Las Nieves,1,1
+PERIFERICA,3,11,Challapampa,28,30
+PERIFERICA,3,11,Agua de la Vida,12,13
+PERIFERICA,3,11,Plan Autopista,3,3
+PERIFERICA,3,11,Zona Norte,13,15
+PERIFERICA,3,11,Villa Pabón,5,6
+PERIFERICA,3,11,Vino Tinto,24,25
+PERIFERICA,3,11,Achachicala,25,26
+PERIFERICA,3,12,Agua de la Vida Norte,2,2
+PERIFERICA,3,12,Las Delicias,15,15
+PERIFERICA,3,12,Poqueni,1,1
+PERIFERICA,3,12,San Juan,1,1
+PERIFERICA,3,12,San Juan Lazareto,4,4
+PERIFERICA,3,12,Santa Rosa,6,7
+PERIFERICA,3,12,Santa Rosa de Tiji,3,3
+PERIFERICA,3,12,Miraflores Alto,17,17
+PERIFERICA,3,12,27 de Mayo,3,3
+PERIFERICA,3,12,Alto Las Delicias,5,5
+PERIFERICA,3,12,Cupilupaca,3,3
+PERIFERICA,3,12,Rosasani,2,2
+PERIFERICA,3,13,Villa El Carmen,31,32
+PERIFERICA,3,13,Villa Fátima,49,49
+PERIFERICA,3,13,Kalajahuira,7,7
+PERIFERICA,3,13,Kochapampa,1,1
+PERIFERICA,3,13,La Mercéd,14,15
+PERIFERICA,3,13,Condorini,5,5
+PERIFERICA,3,13,Chuquiaguillo,10,10
+PERIFERICA,3,13,Barrio Petrolero,1,2
+PERIFERICA,3,13,Barrio Gráfico,8,9
+PERIFERICA,3,13,Alto La Merced,2,3
+PERIFERICA,3,13,3 de Mayo,4,4
+SAN ANTONIO,4,14,Valle Hermoso,9,12
+SAN ANTONIO,4,14,Villa Copacabana,46,48
+SAN ANTONIO,4,14,San Simón,1,1
+SAN ANTONIO,4,14,Pacasa,8,8
+SAN ANTONIO,4,14,24 de Junio,1,1
+SAN ANTONIO,4,15,Escobar Uría,11,11
+SAN ANTONIO,4,15,San Antonio,67,69
+SAN ANTONIO,4,16,Pampahasi,38,39
+SAN ANTONIO,4,16,Valle de las Flores,3,3
+SAN ANTONIO,4,16,Villa Salomé,11,12
+SAN ANTONIO,4,17,Callapa,1,1
+SAN ANTONIO,4,17,Cuarto Centenario,4,4
+SAN ANTONIO,4,17,Kupini,3,5
+SAN ANTONIO,4,17,San Isidro,8,9
+SAN ANTONIO,4,17,Villa Armonía,13,13
+SAN ANTONIO,4,17,Villa Litoral,2,2
+SUR,5,18,Los Pinos,20,21
+SUR,5,18,La Florida,5,5
+SUR,5,18,Calacoto,32,32
+SUR,5,18,San Miguel,9,9
+SUR,5,18,Koani,2,2
+SUR,5,18,Irpavi,55,55
+SUR,5,18,Irpavi II,5,5
+SUR,5,18,Alto Calacoto,1,1
+SUR,5,18,Cota Cota,11,12
+SUR,5,18,Auquisamaña,1,1
+SUR,5,18,Achumani,33,35
+SUR,5,18,El Vergel,1,1
+SUR,5,18,Los Rosales,3,3
+SUR,5,18,Alto Irpavi,10,10
+SUR,5,18,Alto Achumani,1,1
+SUR,5,18,Achumani Porvenir Kantutas,1,1
+SUR,5,18,Huantaqui,4,5
+SUR,5,18,Jardines del Sur,3,3
+SUR,5,18,Meseta Achumani,2,2
+SUR,5,18,Aruntaya,3,3
+SUR,5,18,Huayllani,2,2
+SUR,5,19,Los Rosales Alto Calacoto,4,4
+SUR,5,19,Lomas de Achumani,1,1
+SUR,5,19,Coqueni,1,1
+SUR,5,19,Chasquipampa,17,17
+SUR,5,19,Casegural,1,1
+SUR,5,19,Wilacota,2,2
+SUR,5,19,Pedregal,7,7
+SUR,5,19,Ovejuyo,4,4
+SUR,5,21,Següencoma Bajo,7,7
+SUR,5,21,Ventilla,3,3
+SUR,5,21,San Alberto,2,2
+SUR,5,21,Kantutani Bajo Llojeta,9,9
+SUR,5,21,Huanu Huanuni,2,2
+SUR,5,21,Caliri,1,1
+SUR,5,21,Bolognia,6,6
+SUR,5,21,Bella Vista,9,10
+SUR,5,21,Alto Següencoma,12,12
+SUR,5,21,Alto Obrajes,20,21
+SUR,5,21,Obrajes,35,37
+MALLASA,6,20,Amor de Dios,1,1
+MALLASA,6,20,Aranjuéz,4,4
+MALLASA,6,20,Mallasa,11,11
+CENTRO,7,1,Santa Barbara,5,5
+CENTRO,7,1,San Sebastián,23,29
+CENTRO,7,1,El Rosario,2,2
+CENTRO,7,1,San Jorge,42,43
+CENTRO,7,1,Central,28,29
+CENTRO,7,2,Miraflores Sur,48,52
+CENTRO,7,2,Miraflores,104,111
+NO IDENTIFICADO,0,0,No Identificado,145,159
