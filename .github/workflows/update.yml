@@ -1,7 +1,7 @@
 name: Update data
 on:
   schedule:
-    - cron: '30 14 * * *'
+    - cron: '0 15 * * *'
 jobs:
   update:
     name: update data
@@ -32,5 +32,5 @@ jobs:
           git config --global user.name "covid19-bot"
           git add -A
           git status
-          git commit -m "[ci] DAY"
+          git commit -m "[ci] $DAY"
           git push -q "https://$GH_TOKEN@github.com/mauforonda/covid19-lapaz.git" master
