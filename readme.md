@@ -1,3 +1,9 @@
-> Series de tiempo de casos de covid-19 en el Municipio de La Paz, Bolivia por zona
+> Casos de covid-19 por zona en el Municipio de La Paz, Bolivia
 
-Archivo de datos provistos por el Observatorio Covid-19 del Gobierno Autónomo Municipal de La Paz cada día a las 11:00am. Puedes consultar la fuente, incluyendo otros datos y visualizaciones en [el sitio oficial](http://observatoriocovid19.lapaz.bo/observatorio/index.php/datos-abiertos-covid). En la actualidad, el Observatorio no ofrece una vista histórica de datos a este nivel de granularidad.
+Fuente: [Observatorio Covid-19 del Gobierno Autónomo Municipal](http://observatoriocovid19.lapaz.bo/observatorio/index.php/datos-abiertos-covid)
+
+Los datos comenzaron a ser recolectados el 1 de Julio, el primer día de operación del observatorio, y son actualizados cada día a las 11am para los casos del día anterior.
+
+# Casos activos desde el 1 de Julio hasta ayer
+
+![Casos Activos](activos.png)

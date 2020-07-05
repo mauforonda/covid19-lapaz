@@ -3,6 +3,10 @@ import requests
 import pandas as pd
 import pytz
 from  datetime import datetime, timedelta
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+import seaborn as sns
+from textwrap import wrap
 
 def get_total():
   url = 'http://observatoriocovid19.lapaz.bo/obsadmin/casosAcumulados.php?accion=json'
@@ -53,8 +57,26 @@ def save_newday(day, data, saved):
     data_final[data_final.columns[4:]] = data_final[data_final.columns[4:]].astype(int)
     data_final.fillna(0).to_csv('{}.csv'.format(col[0]), index=False)
   print(day)
-  
+
+def make_plot(category):
+  sns.set(font='Quicksand', rc={'axes.facecolor':'#f9f9f9', 'text.color': '#938e99', 'axes.grid': True, 'grid.color': '#dedede', 'xtick.color': '#938e99', 'ytick.color': '#938e99', 'font.weight': 'medium'})
+  df = pd.read_csv('{}.csv'.format(category))
+  df = df[df['zona'] != 'No Identificado']
+  df['zona'] = df['zona'].apply(lambda x: x[:18] + '...' if len(x) > 17 else x)
+  df = df.sort_values(df.columns.tolist()[-1], ascending=False)
+  df2 = pd.concat([df[['zona', i]].rename(columns={i:'casos'}).assign(fecha=[i] * len(df)) for i in df.columns.tolist()[4:]], axis=0)
+  df2['fecha'] = pd.to_datetime(df2['fecha'])
+  g = sns.FacetGrid(df2, col="zona", col_wrap=6, height=1.5, aspect=1.5)
+  g.map(plt.stackplot, "fecha", "casos", color='#8c8cf7', alpha=0.5)
+  g.set(xticks=[])
+  g.set_axis_labels('', '')
+  g.set_titles("{col_name}", size=13)
+  plt.tight_layout()
+  g.savefig('{}.png'.format(category))
+  plt.close()
+
 data = get_data()
 day = day_is()
 # save_data(d, day)
 save_newday(day, data, get_saved())
+make_plot('activos')
