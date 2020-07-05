@@ -11,14 +11,18 @@ jobs:
         uses: actions/checkout@master
         with:
           ref: master
-      - name: python setup
+      - name: setup python
         uses: actions/setup-python@v1
         with:
           python-version: '3.6'
-      - name: python install
+      - name: install python and dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r update/requirements.txt
+      - name: install fonts for plots
+        run: |
+          wget "https://mauforonda.gitlab.io/open/otro/quicksand.zip" -O /usr/share/fonts/quicksand.zip
+          unzip /usr/share/fonts/quicksand.zip -d /usr/share/fonts/ && fc-cache
       - name: run script
         run: |
           echo ::set-output name=results::$(python update/update.py)
