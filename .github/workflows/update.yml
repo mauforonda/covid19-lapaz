@@ -1,7 +1,7 @@
 name: Update data
 on:
   schedule:
-    - cron: '0 15 * * *'
+    - cron: '15 15 * * *'
 jobs:
   update:
     name: update data
@@ -11,6 +11,11 @@ jobs:
         uses: actions/checkout@master
         with:
           ref: master
+          lfs: true
+      - name: install lfs
+        run: |
+          curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+          git lfs install
       - name: setup python
         uses: actions/setup-python@v1
         with:
@@ -22,7 +27,8 @@ jobs:
       - name: install fonts for plots
         run: |
           wget "https://mauforonda.gitlab.io/open/otro/quicksand.zip" -O /usr/share/fonts/quicksand.zip
-          unzip /usr/share/fonts/quicksand.zip -d /usr/share/fonts/ && fc-cache
+          unzip /usr/share/fonts/quicksand.zip -d /usr/share/fonts/
+          fc-cache -f -v
       - name: run script
         run: |
           echo ::set-output name=results::$(python update/update.py)
