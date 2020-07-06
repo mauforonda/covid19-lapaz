@@ -36,13 +36,6 @@ def get_saved():
 def day_is():
   return datetime.strftime(datetime.now(pytz.timezone('America/La_Paz')) - timedelta(days=1), '%Y-%m-%d')
 
-def save_data(data, day):
-  for col in ['confirmados', 'activos', 'recuperados', 'fallecidos']:
-    data_col = data[['macrodistrito', 'macro', 'distrito', 'zona', col]]
-    data_col = data_col.rename(columns={col:day})
-    data_col = data_col[['macrodistrito', 'macro', 'distrito', 'zona', day]]
-    data_col.to_csv('{}.csv'.format(col), index=False)
-    
 def save_newday(day, data, saved):
   confirmados, activos, recuperados, fallecidos = saved
   data = data.set_index('zona', drop=False)
@@ -75,8 +68,39 @@ def make_plot(category):
   g.savefig('{}.png'.format(category))
   plt.close()
 
+def make_summary(category):
+  df = pd.read_csv('{}.csv'.format(category))
+  days = df.columns.tolist()[-2:]
+  df['diff'] = df[days].diff(axis=1)[days[1]].astype(int)
+  df = df[['macrodistrito', 'zona', days[1], 'diff']]
+  summary = ['## {} en el último día'.format(category.capitalize())] 
+  summary.append(df[df['diff'] > 0].sort_values('diff', ascending=False).head(50).to_markdown(tablefmt='github', showindex=False, headers=['Macrodistrito', 'Zona', 'Total', 'Último Día']))
+  return summary
+
+def make_header():
+  return ['> Casos de covid-19 por zona en el Municipio de La Paz, Bolivia',
+          'Fuente: [Observatorio Covid-19 del Gobierno Autónomo Municipal](http://observatoriocovid19.lapaz.bo/observatorio/index.php/datos-abiertos-covid)',
+          'Los datos comenzaron a ser recolectados el 1 de Julio, el primer día de operación del observatorio, y son actualizados cada día a las 10am para los casos del día anterior.',
+          'Última actualización para el {}'.format(pd.read_csv('confirmados.csv').columns.tolist()[-1])]
+
+def display_plot():
+  return ['## Activos desde el 1 de Julio',
+          '![Casos Activos](activos.png)']
+
+def write_readme(readme):
+  with open('readme.md', 'w+') as f:
+    f.write('\n\n'.join(readme))
+
+def make_readme():
+  readme = make_header()
+  readme.extend(make_summary('confirmados'))
+  readme.extend(make_summary('recuperados'))
+  readme.extend(make_summary('fallecidos'))
+  readme.extend(display_plot())
+  write_readme(readme)
+  
 data = get_data()
 day = day_is()
-# save_data(d, day)
 save_newday(day, data, get_saved())
 make_plot('activos')
+make_readme()
