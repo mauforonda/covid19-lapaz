@@ -1,7 +1,7 @@
 name: Update data
 on:
   schedule:
-    - cron: '0 14 * * *'
+    - cron: '0 14-22 * * *'
 jobs:
   update:
     name: update data
@@ -12,10 +12,6 @@ jobs:
         with:
           ref: master
           lfs: true
-      - name: install lfs
-        run: |
-          curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
-          git lfs install
       - name: setup python
         uses: actions/setup-python@v1
         with:
@@ -24,19 +20,30 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r update/requirements.txt
+      - name: run update script
+        run: |
+          echo ::set-output name=results::$(python update/update.py)
+        id: run_update_script
+      - name: install lfs
+        if: steps.run_update_script.outputs.results != 0
+        run: |
+          curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+          git lfs install
       - name: install fonts for plots
+        if: steps.run_update_script.outputs.results != 0
         run: |
           wget "https://mauforonda.gitlab.io/open/otro/quicksand.zip" -O /usr/share/fonts/quicksand.zip
           unzip /usr/share/fonts/quicksand.zip -d /usr/share/fonts/
           fc-cache -f -v
-      - name: run script
+      - name: run readme script
+        if: steps.run_update_script.outputs.results != 0
         run: |
-          echo ::set-output name=results::$(python update/update.py)
-        id: run_script
+          python update/readme.py
       - name: commit
         env:
-          DAY: ${{ steps.run_script.outputs.results }}
+          DAY: ${{ steps.run_update_script.outputs.results }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        if: steps.run_update_script.outputs.results != 0
         run: |
           git config --global user.email "covid19-bot@example.com"
           git config --global user.name "covid19-bot"
