@@ -59,9 +59,16 @@ def is_new_data(data):
     old = old[old['zona'] != 'No Identificado']
     differences += (df[i] - old[old.columns.tolist()[-1]]).sum()
   return differences > 0
-  
-data = get_data()
-if is_new_data(data):
-  save_newday(day_is(), data, get_saved())
+
+def empty_day(day):
+  return pd.read_csv('confirmados.csv').columns.tolist()[-1] !=  day
+
+day = day_is()
+if empty_day(day):
+  data = get_data()
+  if is_new_data(data):
+    save_newday(day, data, get_saved())
+  else:
+    print('0')
 else:
   print('0')
