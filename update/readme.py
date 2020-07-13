@@ -40,6 +40,15 @@ def display_plot():
   return ['## Activos desde el 1 de Julio',
           '![Casos Activos](activos.png)']
 
+def display_notes():
+  return ["---",
+          "### Notas",
+          "Consulto el servicio de datos del Gobierno Municipal cada día a las 10am y asumo que estos valores reflejan el estado de los casos para el día anterior. Algunas posibles fuentes de error son:",
+          "1. Si los datos se actualizaran contínuamente, una parte de los casos que asigno al día anterior corresponden en realidad al día en curso. [He consultado al encargado](https://twitter.com/mauforonda/status/1278727234765959168) del servicio si la inferencia que hago es correcta y no ha respondido.",
+          "2. A diario, algunos casos no son georeferenciados y no se reportan en el conteo de ninguna zona, pero sí aparecen en el conteo total de casos. Reporto el número diario de estos casos como 'No Identificado'.  Sin embargo, el Gobierno Municipal podría georeferenciar estos casos en los días siguientes y se sumarían al conteo de casos en sus zonas. Esto significa que una parte de los valores que asigno a cada zona podría representar casos de días pasados. En la actualidad, el Gobierno Municipal no ofrece una forma de corregir este error. Por esto, si deseas estudiar la curva epidemiológica para cada zona en base a estos datos, sugiero usar una media móvil de al menos 3 días."
+  ]
+
+
 def write_readme(readme):
   with open('readme.md', 'w+') as f:
     f.write('\n\n'.join(readme))
@@ -50,6 +59,7 @@ def make_readme():
   readme.extend(make_summary('recuperados'))
   readme.extend(make_summary('fallecidos'))
   readme.extend(display_plot())
+  readme.extend(display_notes())
   write_readme(readme)
 
 
