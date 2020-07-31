@@ -76,7 +76,37 @@ Los datos comenzaron a ser recolectados el 1 de Julio, el primer día de operaci
 
 ## Activos desde el 1 de Julio
 
-![Casos Activos](activos.png)
+### Centro
+
+![Centro](plots/activos_centro.png)
+
+### Cotahuma
+
+![Cotahuma](plots/activos_cotahuma.png)
+
+### Hampaturi
+
+![Hampaturi](plots/activos_hampaturi.png)
+
+### Mallasa
+
+![Mallasa](plots/activos_mallasa.png)
+
+### Max Paredes
+
+![Max Paredes](plots/activos_max paredes.png)
+
+### Periferica
+
+![Periferica](plots/activos_periferica.png)
+
+### San Antonio
+
+![San Antonio](plots/activos_san antonio.png)
+
+### Sur
+
+![Sur](plots/activos_sur.png)
 
 ---
 
