@@ -94,7 +94,7 @@ Los datos comenzaron a ser recolectados el 1 de Julio, el primer día de operaci
 
 ### Max Paredes
 
-![Max Paredes](plots/activos_max paredes.png)
+![Max Paredes](plots/activos_max_paredes.png)
 
 ### Periferica
 
@@ -102,7 +102,7 @@ Los datos comenzaron a ser recolectados el 1 de Julio, el primer día de operaci
 
 ### San Antonio
 
-![San Antonio](plots/activos_san antonio.png)
+![San Antonio](plots/activos_san_antonio.png)
 
 ### Sur
 

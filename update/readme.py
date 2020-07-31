@@ -19,7 +19,7 @@ def make_plot(category):
     g.set_axis_labels('', '')
     g.set_titles("{col_name}", size=13)
     plt.tight_layout()
-    fn = 'plots/{c}_{m}.png'.format(c=category, m=macrodistrito.lower())
+    fn = 'plots/{c}_{m}.png'.format(c=category, m=macrodistrito.lower().replace(' ', '_'))
     g.savefig(fn)
     plots.append({'filename':fn, 'title':macrodistrito.title()})
     plt.close()
