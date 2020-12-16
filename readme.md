@@ -4,40 +4,50 @@ Fuente: [Observatorio Covid-19 del Gobierno Autónomo Municipal](http://observat
 
 Los datos comenzaron a ser recolectados el 1 de Julio, el primer día de operación del observatorio. Consulto la fuente a cada hora entre las 10am y 6pm para actualizar los datos del día anterior.
 
-Última actualización para el 2020-12-14
+Última actualización para el 2020-12-15
 
 ## Confirmados en el último día
 
-| Macrodistrito   | Zona           |   Total |   Último Día |
-|-----------------|----------------|---------|--------------|
-| PERIFERICA      | Achachicala    |     416 |            2 |
-| SUR             | Cota Cota      |     223 |            2 |
-| CENTRO          | Miraflores     |    1183 |            2 |
-| COTAHUMA        | Sopocachi      |     687 |            1 |
-| COTAHUMA        | Sopocachi Alto |     368 |            1 |
-| COTAHUMA        | San Pedro      |     581 |            1 |
-| CENTRO          | El Rosario     |     112 |            1 |
+| Macrodistrito   | Zona                   |   Total |   Último Día |
+|-----------------|------------------------|---------|--------------|
+| NO IDENTIFICADO | No Identificado        |    2292 |            3 |
+| CENTRO          | San Sebastián          |     157 |            3 |
+| CENTRO          | Miraflores             |    1185 |            2 |
+| COTAHUMA        | Bello Horizonte        |     186 |            2 |
+| MAX PAREDES     | Pura Pura              |     331 |            2 |
+| MAX PAREDES     | Villa Victoria         |     339 |            2 |
+| MAX PAREDES     | La Portada             |     212 |            2 |
+| PERIFERICA      | Achachicala            |     418 |            2 |
+| PERIFERICA      | Villa Fátima           |     446 |            2 |
+| SAN ANTONIO     | Villa Salomé           |     205 |            1 |
+| CENTRO          | Miraflores Sur         |     444 |            1 |
+| SUR             | Kantutani Bajo Llojeta |      59 |            1 |
+| SUR             | Chasquipampa           |     162 |            1 |
+| SUR             | Virgen de la Merced    |      12 |            1 |
+| SUR             | Irpavi                 |     389 |            1 |
+| COTAHUMA        | Sopocachi              |     688 |            1 |
+| SAN ANTONIO     | Pampahasi              |     576 |            1 |
+| SAN ANTONIO     | Escobar Uría           |      67 |            1 |
+| COTAHUMA        | Tembladerani           |     361 |            1 |
+| PERIFERICA      | Challapampa            |     189 |            1 |
+| PERIFERICA      | Vino Tinto             |     417 |            1 |
+| MAX PAREDES     | El Tejar               |     366 |            1 |
+| MAX PAREDES     | Gran Poder             |     238 |            1 |
+| COTAHUMA        | San Pedro              |     582 |            1 |
+| PERIFERICA      | Las Delicias           |     124 |            1 |
 
 ## Recuperados en el último día
 
-| Macrodistrito   | Zona              |   Total |   Último Día |
-|-----------------|-------------------|---------|--------------|
-| SAN ANTONIO     | Escobar Uría      |      62 |            2 |
-| MAX PAREDES     | La Portada        |     195 |            1 |
-| MAX PAREDES     | Alto Tejar        |      70 |            1 |
-| PERIFERICA      | Villa Pabón       |     138 |            1 |
-| SAN ANTONIO     | Cuarto Centenario |      79 |            1 |
-| SAN ANTONIO     | Villa Armonía     |     230 |            1 |
-| SUR             | Calacoto          |     225 |            1 |
-| SUR             | Auquisamaña       |      44 |            1 |
-| CENTRO          | Miraflores        |    1110 |            1 |
+| Macrodistrito   | Zona            |   Total |   Último Día |
+|-----------------|-----------------|---------|--------------|
+| NO IDENTIFICADO | No Identificado |    1865 |           20 |
+| COTAHUMA        | Sopocachi Alto  |     341 |            1 |
+| SAN ANTONIO     | Villa Armonía   |     231 |            1 |
 
 ## Fallecidos en el último día
 
-| Macrodistrito   | Zona      |   Total |   Último Día |
-|-----------------|-----------|---------|--------------|
-| COTAHUMA        | Tacagua   |       7 |            1 |
-| SAN ANTONIO     | Pampahasi |      14 |            1 |
+| Macrodistrito   | Zona   | Total   | Último Día   |
+|-----------------|--------|---------|--------------|
 
 ## Activos desde el 1 de Julio
 
