@@ -14,4 +14,4 @@ scipy==1.5.1
 seaborn==0.10.1
 six==1.15.0
 tabulate==0.8.7
-urllib3==1.25.9
+urllib3==1.26.5
