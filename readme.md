@@ -4,120 +4,126 @@ Fuente: [Observatorio Covid-19 del Gobierno Autónomo Municipal](http://observat
 
 Los datos comenzaron a ser recolectados el 1 de Julio, el primer día de operación del observatorio. Consulto la fuente a cada hora entre las 10am y 6pm para actualizar los datos del día anterior.
 
-Última actualización para el 2021-06-05
+Última actualización para el 2021-06-06
 
 ## Confirmados en el último día
 
-| Macrodistrito   | Zona                   |   Total |   Último Día |
-|-----------------|------------------------|---------|--------------|
-| NO IDENTIFICADO | No Identificado        |    4900 |        10546 |
-| COTAHUMA        | Sopocachi              |    1848 |           17 |
-| SUR             | Alto Obrajes           |    1022 |           12 |
-| PERIFERICA      | Zona Norte             |     732 |           10 |
-| COTAHUMA        | San Pedro              |    1172 |           10 |
-| SAN ANTONIO     | Villa Copacabana       |    1536 |           10 |
-| SAN ANTONIO     | San Antonio            |    1840 |           10 |
-| SUR             | Obrajes                |    1345 |            9 |
-| CENTRO          | Miraflores             |    2749 |            9 |
-| SAN ANTONIO     | Pampahasi              |    1403 |            9 |
-| SUR             | Irpavi                 |    1015 |            8 |
-| MAX PAREDES     | El Tejar               |     829 |            8 |
-| SUR             | Bella Vista            |     550 |            8 |
-| SAN ANTONIO     | Kupini                 |     373 |            7 |
-| SUR             | Achumani               |    1160 |            7 |
-| SAN ANTONIO     | Villa Armonía          |     641 |            7 |
-| CENTRO          | Miraflores Sur         |     914 |            7 |
-| CENTRO          | San Jorge              |     665 |            6 |
-| SUR             | Cota Cota              |     558 |            6 |
-| COTAHUMA        | Tembladerani           |     785 |            6 |
-| SAN ANTONIO     | Cuarto Centenario      |     277 |            5 |
-| COTAHUMA        | Sopocachi Alto         |     849 |            5 |
-| SAN ANTONIO     | San Isidro             |     343 |            5 |
-| CENTRO          | San Sebastián          |     367 |            5 |
-| MAX PAREDES     | 14 de Septiembre       |     316 |            4 |
-| PERIFERICA      | Vino Tinto             |     890 |            4 |
-| MAX PAREDES     | Gran Poder             |     466 |            4 |
-| PERIFERICA      | Achachicala            |     865 |            4 |
-| COTAHUMA        | San Pedro Alto         |     777 |            4 |
-| COTAHUMA        | Belén                  |     306 |            4 |
-| COTAHUMA        | Tacagua                |     325 |            4 |
-| COTAHUMA        | Bajo Llojeta           |     493 |            4 |
-| SAN ANTONIO     | Villa Salomé           |     473 |            3 |
-| SUR             | Alto Següencoma        |     362 |            3 |
-| COTAHUMA        | Kantutani              |      76 |            3 |
-| PERIFERICA      | Miraflores Alto        |     586 |            3 |
-| CENTRO          | Central                |     708 |            3 |
-| SUR             | Calacoto               |     590 |            3 |
-| PERIFERICA      | Villa El Carmen        |     586 |            3 |
-| MAX PAREDES     | Callampaya             |     311 |            3 |
-| MAX PAREDES     | Pura Pura              |     768 |            3 |
-| COTAHUMA        | Villa Nuevo Potosí     |     763 |            3 |
-| MAX PAREDES     | Chijini                |     514 |            3 |
-| COTAHUMA        | Inca Llojeta           |     154 |            3 |
-| MAX PAREDES     | Villa Victoria         |     730 |            2 |
-| SUR             | Auquisamaña            |     112 |            2 |
-| MAX PAREDES     | Ciudadela Ferroviaria  |     206 |            2 |
-| SUR             | Chasquipampa           |     447 |            2 |
-| PERIFERICA      | Villa Pabón            |     340 |            2 |
-| SUR             | Kantutani Bajo Llojeta |     125 |            2 |
+| Macrodistrito   | Zona               |   Total |   Último Día |
+|-----------------|--------------------|---------|--------------|
+| NO IDENTIFICADO | No Identificado    |    4936 |           36 |
+| CENTRO          | Miraflores         |    2768 |           19 |
+| COTAHUMA        | Sopocachi          |    1866 |           18 |
+| SUR             | Los Pinos          |     467 |           14 |
+| SAN ANTONIO     | San Antonio        |    1852 |           12 |
+| SUR             | Achumani           |    1172 |           12 |
+| SUR             | Alto Obrajes       |    1032 |           10 |
+| SUR             | Calacoto           |     599 |            9 |
+| SUR             | Bella Vista        |     559 |            9 |
+| SUR             | Cota Cota          |     566 |            8 |
+| SUR             | Obrajes            |    1353 |            8 |
+| CENTRO          | San Sebastián      |     374 |            7 |
+| COTAHUMA        | Sopocachi Alto     |     856 |            7 |
+| SAN ANTONIO     | Pampahasi          |    1410 |            7 |
+| SUR             | Chasquipampa       |     453 |            6 |
+| MAX PAREDES     | Pura Pura          |     774 |            6 |
+| PERIFERICA      | Achachicala        |     871 |            6 |
+| SAN ANTONIO     | Cuarto Centenario  |     283 |            6 |
+| SAN ANTONIO     | Valle Hermoso      |     251 |            6 |
+| COTAHUMA        | San Pedro          |    1177 |            5 |
+| MAX PAREDES     | Chijini            |     519 |            5 |
+| SUR             | Pedregal           |     125 |            5 |
+| MAX PAREDES     | 14 de Septiembre   |     321 |            5 |
+| COTAHUMA        | Tacagua            |     330 |            5 |
+| SAN ANTONIO     | Villa Copacabana   |    1541 |            5 |
+| PERIFERICA      | Zona Norte         |     737 |            5 |
+| CENTRO          | Santa Barbara      |     373 |            5 |
+| MAX PAREDES     | El Tejar           |     833 |            4 |
+| CENTRO          | San Jorge          |     669 |            4 |
+| COTAHUMA        | San Pedro Alto     |     781 |            4 |
+| COTAHUMA        | Bello Horizonte    |     387 |            4 |
+| CENTRO          | Central            |     712 |            4 |
+| PERIFERICA      | Chuquiaguillo      |     175 |            3 |
+| PERIFERICA      | Villa El Carmen    |     589 |            3 |
+| SAN ANTONIO     | Kupini             |     376 |            3 |
+| SUR             | San Miguel         |     124 |            3 |
+| PERIFERICA      | Las Delicias       |     264 |            3 |
+| SUR             | Koani              |      83 |            3 |
+| PERIFERICA      | Vino Tinto         |     893 |            3 |
+| SUR             | Irpavi             |    1018 |            3 |
+| CENTRO          | Miraflores Sur     |     917 |            3 |
+| COTAHUMA        | Tembladerani       |     788 |            3 |
+| SUR             | Següencoma Bajo    |     178 |            3 |
+| CENTRO          | El Rosario         |     310 |            3 |
+| MAX PAREDES     | Munaypata          |     754 |            3 |
+| MAX PAREDES     | Callampaya         |     314 |            3 |
+| COTAHUMA        | Inca Llojeta       |     157 |            3 |
+| PERIFERICA      | Agua de la Vida    |     294 |            2 |
+| COTAHUMA        | Villa Nuevo Potosí |     765 |            2 |
+| COTAHUMA        | 8 de Diciembre     |     112 |            2 |
 
 ## Recuperados en el último día
 
-| Macrodistrito   | Zona                     |   Total |   Último Día |
-|-----------------|--------------------------|---------|--------------|
-| NO IDENTIFICADO | No Identificado          |    4083 |            8 |
-| CENTRO          | Miraflores Sur           |     767 |            4 |
-| PERIFERICA      | Las Delicias             |     212 |            4 |
-| SUR             | Obrajes                  |    1043 |            3 |
-| SAN ANTONIO     | Villa Copacabana         |    1257 |            3 |
-| SUR             | Irpavi                   |     760 |            3 |
-| SAN ANTONIO     | San Antonio              |    1500 |            3 |
-| COTAHUMA        | San Pedro                |     958 |            3 |
-| SUR             | Bella Vista              |     445 |            2 |
-| MAX PAREDES     | Mariscal Santa Cruz      |     297 |            2 |
-| MALLASA         | Aranjuéz                 |      54 |            2 |
-| MAX PAREDES     | Villa Victoria           |     625 |            2 |
-| CENTRO          | Miraflores               |    2183 |            2 |
-| PERIFERICA      | Villa de la Cruz         |     257 |            2 |
-| PERIFERICA      | La Mercéd                |     233 |            2 |
-| SUR             | Huantaqui                |     121 |            2 |
-| SUR             | Calacoto                 |     457 |            2 |
-| COTAHUMA        | San Pedro Alto           |     620 |            2 |
-| SUR             | Alto Irpavi              |     231 |            1 |
-| SAN ANTONIO     | Villa Armonía            |     507 |            1 |
-| CENTRO          | San Sebastián            |     286 |            1 |
-| SUR             | Achumani                 |     911 |            1 |
-| MALLASA         | Mallasilla               |      83 |            1 |
-| SUR             | Lomas de Achumani        |      33 |            1 |
-| CENTRO          | Central                  |     569 |            1 |
-| SAN ANTONIO     | Kupini                   |     290 |            1 |
-| SUR             | Alto Següencoma          |     291 |            1 |
-| SUR             | San Miguel               |      91 |            1 |
-| COTAHUMA        | Cotahuma                 |     113 |            1 |
-| PERIFERICA      | Chuquiaguillo            |     131 |            1 |
-| COTAHUMA        | Villa Nuevo Potosí       |     596 |            1 |
-| COTAHUMA        | Tacagua                  |     268 |            1 |
-| COTAHUMA        | Bello Horizonte          |     323 |            1 |
-| MAX PAREDES     | Sagrado Corazón de Jesús |      43 |            1 |
-| MAX PAREDES     | Los Andes                |     193 |            1 |
-| MAX PAREDES     | 14 de Septiembre         |     259 |            1 |
-| MAX PAREDES     | El Tejar                 |     676 |            1 |
-| MAX PAREDES     | La Portada               |     353 |            1 |
-| PERIFERICA      | Achachicala              |     714 |            1 |
-| PERIFERICA      | Poqueni                  |      90 |            1 |
-| PERIFERICA      | Miraflores Alto          |     475 |            1 |
-| PERIFERICA      | San Juan Lazareto        |     155 |            1 |
-| PERIFERICA      | Rosasani                 |      52 |            1 |
-| PERIFERICA      | 27 de Mayo               |      50 |            1 |
-| PERIFERICA      | San Juan                 |     139 |            1 |
-| PERIFERICA      | Villa Fátima             |     781 |            1 |
-| PERIFERICA      | Villa El Carmen          |     448 |            1 |
+| Macrodistrito   | Zona               |   Total |   Último Día |
+|-----------------|--------------------|---------|--------------|
+| NO IDENTIFICADO | No Identificado    |    4093 |           10 |
+| SUR             | Alto Obrajes       |     805 |            5 |
+| CENTRO          | Miraflores         |    2187 |            4 |
+| SAN ANTONIO     | San Antonio        |    1503 |            3 |
+| CENTRO          | San Jorge          |     529 |            3 |
+| SUR             | Calacoto           |     460 |            3 |
+| MAX PAREDES     | Gran Poder         |     377 |            3 |
+| PERIFERICA      | Villa Fátima       |     783 |            2 |
+| COTAHUMA        | Sopocachi Alto     |     679 |            2 |
+| SAN ANTONIO     | Villa Copacabana   |    1259 |            2 |
+| SUR             | Irpavi             |     762 |            2 |
+| SAN ANTONIO     | Pampahasi          |    1108 |            2 |
+| SAN ANTONIO     | Villa Armonía      |     509 |            2 |
+| PERIFERICA      | Agua de la Vida    |     237 |            2 |
+| SUR             | Obrajes            |    1045 |            2 |
+| CENTRO          | Central            |     571 |            2 |
+| PERIFERICA      | Las Delicias       |     214 |            2 |
+| COTAHUMA        | Sopocachi          |    1451 |            2 |
+| MAX PAREDES     | Alto Ciudadela     |      89 |            2 |
+| COTAHUMA        | Llojeta            |     285 |            2 |
+| COTAHUMA        | Tembladerani       |     640 |            2 |
+| COTAHUMA        | San Pedro          |     960 |            2 |
+| COTAHUMA        | Bajo Llojeta       |     411 |            2 |
+| MAX PAREDES     | El Tejar           |     678 |            2 |
+| PERIFERICA      | Villa de la Cruz   |     258 |            1 |
+| COTAHUMA        | Villa Nuevo Potosí |     597 |            1 |
+| SUR             | Jardines del Sur   |      76 |            1 |
+| SUR             | San Miguel         |      92 |            1 |
+| SUR             | Caliri             |      43 |            1 |
+| COTAHUMA        | Cotahuma           |     114 |            1 |
+| SUR             | Bella Vista        |     446 |            1 |
+| SUR             | Koani              |      71 |            1 |
+| MALLASA         | Amor de Dios       |      34 |            1 |
+| CENTRO          | Santa Barbara      |     303 |            1 |
+| COTAHUMA        | Pasankeri          |     268 |            1 |
+| CENTRO          | El Rosario         |     245 |            1 |
+| CENTRO          | Miraflores Sur     |     768 |            1 |
+| SUR             | Achumani           |     912 |            1 |
+| COTAHUMA        | Tacagua            |     269 |            1 |
+| SUR             | Irpavi II          |      90 |            1 |
+| PERIFERICA      | Villa Pabón        |     263 |            1 |
+| SUR             | Cota Cota          |     417 |            1 |
+| SAN ANTONIO     | Cuarto Centenario  |     206 |            1 |
+| SAN ANTONIO     | Kupini             |     291 |            1 |
+| COTAHUMA        | San Pedro Alto     |     621 |            1 |
+| SAN ANTONIO     | Pacasa             |      91 |            1 |
+| MAX PAREDES     | Pura Pura          |     629 |            1 |
+| PERIFERICA      | Villa El Carmen    |     449 |            1 |
+| MAX PAREDES     | La Portada         |     354 |            1 |
+| PERIFERICA      | Challapampa        |     266 |            1 |
 
 ## Fallecidos en el último día
 
-| Macrodistrito   | Zona            |   Total |   Último Día |
-|-----------------|-----------------|---------|--------------|
-| NO IDENTIFICADO | No Identificado |     226 |            4 |
+| Macrodistrito   | Zona           |   Total |   Último Día |
+|-----------------|----------------|---------|--------------|
+| CENTRO          | Miraflores     |      67 |            2 |
+| COTAHUMA        | Pasankeri      |      10 |            1 |
+| COTAHUMA        | San Pedro      |      36 |            1 |
+| CENTRO          | Miraflores Sur |      15 |            1 |
 
 ## Activos desde el 1 de Julio
 
